@@ -5,8 +5,6 @@ import * as Yup from 'yup';
 import { auth, db } from "../firebase.js";
 import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { collection, query, where, getDocs } from "firebase/firestore";
-
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, CardAction } from '../components/ui/Card';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Label } from '../components/ui/Label';
